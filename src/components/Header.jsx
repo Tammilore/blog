@@ -5,55 +5,15 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 
 import { Container } from '@/components/Container'
-import logo from '@/images/mintlify.svg'
+import logo from '@/images/zing.svg'
 import { Fragment, useEffect, useRef } from 'react'
 import { ChevronRightIcon } from './Card'
 import DynamicLink from './DynamicLink'
 
 export const navigation = [
   {
-    name: 'Documentation',
-    href: '/docs',
-  },
-  {
-    name: 'Showcase',
-    href: '/showcase',
-  },
-  {
-    name: 'Pricing',
-    href: '/pricing',
-  },
-  {
-    name: 'Enterprise',
-    href: '/enterprise',
-    hideInFooter: true,
-  },
-  {
-    name: 'Blog',
-    href: '/blog',
-  },
-  {
-    name: 'Community',
-    href: '/community',
-    hideInHeaderDeskop: true,
-    hideInHeaderMobile: true,
-    hideInFooter: true,
-  },
-  {
-    name: 'Careers',
-    href: '/careers',
-    hideInHeaderDeskop: true,
-    hideInHeaderMobile: true,
-  },
-  {
-    name: 'Status',
-    href: 'https://status.mintlify.com',
-    hideInHeaderDeskop: true,
-    hideInHeaderMobile: true,
-  },
-  {
     name: 'Login',
-    href: 'https://dashboard.mintlify.com',
+    href: 'https://console.zingfi.co',
     hideInHeaderDeskop: true,
     hideInFooter: true,
   },
@@ -464,9 +424,9 @@ export function Header() {
               <div className="flex items-center justify-end xl:flex-1">
                 <a
                   href="/login"
-                  className="dark:text-zinc pointer-events-auto mr-7 hidden text-sm font-medium text-zinc-800/90 transition hover:text-primary dark:text-zinc-200 dark:hover:text-light xl:block"
+                  className="dark:text-zinc pointer-events-auto mr-7 hidden text-sm font-medium text-zinc-800/90 transition hover:text-primary dark:text-zinc-200 dark:hover:text-tl-block"
                 >
-                  Login
+                  Request Demo
                 </a>
                 <div className="flex items-center justify-end space-x-6">
                   <div className="pointer-events-auto">
@@ -474,7 +434,7 @@ export function Header() {
                       className="dark:shine group flex items-center whitespace-nowrap rounded-full bg-zinc-800/90 px-4 py-2 text-xs font-medium text-zinc-50 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition hover:bg-zinc-600 dark:bg-zinc-100 dark:text-zinc-800 dark:ring-white/10 dark:hover:bg-zinc-200 sm:text-sm"
                       href="/start"
                     >
-                      Get Started
+                      Go to Console
                       <ChevronRightIcon className="ml-1 h-auto w-4 stroke-zinc-400 dark:stroke-zinc-600" />
                     </a>
                   </div>

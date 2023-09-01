@@ -31,17 +31,17 @@ export function Footer() {
             <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
               <div className="flex gap-6">
                 <SocialLink
-                  href="https://twitter.com/mintlify"
+                  href="https://twitter.com/zingfi"
                   aria-label="Follow on Twitter"
                   icon={TwitterIcon}
                 />
                 <SocialLink
-                  href="https://github.com/mintlify"
+                  href="https://github.com"
                   aria-label="Follow on GitHub"
                   icon={GitHubIcon}
                 />
                 <SocialLink
-                  href="https://www.linkedin.com/company/mintsearch"
+                  href="https://www.linkedin.com/company/zing"
                   aria-label="Follow on LinkedIn"
                   icon={LinkedInIcon}
                 />
@@ -56,7 +56,7 @@ export function Footer() {
                   ))}
               </div>
               <p className="text-sm text-zinc-400 dark:text-zinc-500">
-                &copy; {new Date().getFullYear()} Mintlify, Inc.
+                &copy; {new Date().getFullYear()} Zing Technologies Ltd.
               </p>
             </div>
           </Container.Inner>
