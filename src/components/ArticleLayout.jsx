@@ -26,7 +26,7 @@ export function ArticleLayout({
   return (
     <>
       <Head>
-        <title>{`${meta.title} - Mintlify`}</title>
+        <title>{`${meta.title} - Zing`}</title>
         <meta name="description" content={meta.description} />
         <meta property="og:image" content={meta.imageUrl} />
       </Head>

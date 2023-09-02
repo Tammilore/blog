@@ -423,7 +423,7 @@ export function Header() {
               </div>
               <div className="flex items-center justify-end xl:flex-1">
                 <a
-                  href="/login"
+                  href="/"
                   className="dark:text-zinc pointer-events-auto mr-7 hidden text-sm font-medium text-zinc-800/90 transition hover:text-primary dark:text-zinc-200 dark:hover:text-tl-block"
                 >
                   Request Demo
@@ -432,7 +432,7 @@ export function Header() {
                   <div className="pointer-events-auto">
                     <a
                       className="dark:shine group flex items-center whitespace-nowrap rounded-full bg-zinc-800/90 px-4 py-2 text-xs font-medium text-zinc-50 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition hover:bg-zinc-600 dark:bg-zinc-100 dark:text-zinc-800 dark:ring-white/10 dark:hover:bg-zinc-200 sm:text-sm"
-                      href="/start"
+                      href="https://console.zingfi.co"
                     >
                       Go to Console
                       <ChevronRightIcon className="ml-1 h-auto w-4 stroke-zinc-400 dark:stroke-zinc-600" />
