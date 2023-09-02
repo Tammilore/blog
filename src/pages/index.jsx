@@ -64,6 +64,14 @@ export default function ArticlesIndex({ articles }) {
           name="Blogs"
           content="Open finance infrastructure for African businesses"
         />
+        <script
+          defer
+          type="text/javascript"
+          src="https://datapulse.app/datapulse.min.js"
+          id="datapulse"
+          data-endpoint="https://datapulse.app/api/v1/event"
+          data-workspace="clm24uz8e6oq2dl38kc1m603o"
+        ></script>
       </Head>
       <div className="mx-auto">
       <BlogLayout
