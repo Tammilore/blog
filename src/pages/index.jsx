@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { Analytics } from '@vercel/analytics/react';
 
 import { BlogLayout } from '@/components/SimpleLayout'
 import { getAllArticles } from '@/lib/getAllArticles'
@@ -56,6 +57,7 @@ function Article({ article }) {
 export default function ArticlesIndex({ articles }) {
   return (
     <>
+      <Analytics />
       <Head>
         <title>Blog - Zing</title>
         <meta
