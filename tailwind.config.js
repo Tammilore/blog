@@ -29,11 +29,12 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: '#2AB673',
-        light: '#55D799',
+        primary: '#6E5899',
+        light: '#937DC0',
         dark: '#117866',
         ultraLight: '#CCEFE9',
         ultraDark: '#0D5E4F',
+        zingPurple: '#6E5899',
       },
     },
     typography: (theme) => ({
@@ -66,7 +67,7 @@ module.exports = {
           '--tw-prose-body': theme('colors.zinc.600'),
           '--tw-prose-headings': theme('colors.zinc.900'),
           '--tw-prose-links': theme('colors.primary'),
-          '--tw-prose-links-hover': theme('colors.dark'),
+          '--tw-prose-links-hover': theme('colors.primary'),
           '--tw-prose-underline': theme('colors.primary'),
           '--tw-prose-underline-hover': theme('colors.primary'),
           '--tw-prose-bold': theme('colors.zinc.900'),
