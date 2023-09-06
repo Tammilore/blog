@@ -59,7 +59,7 @@ export default function ArticlesIndex({ articles }) {
     <>
       <Analytics />
       <Head>
-        <title>Blog - Zing</title>
+        <title>Zing Blog - Open finance infrastructure for Africa</title>
         <meta
           name="Blogs"
           content="Open finance infrastructure for African businesses"
@@ -75,7 +75,7 @@ export default function ArticlesIndex({ articles }) {
       </Head>
       <div className="mx-auto">
       <BlogLayout
-        title="The Zing Blog"
+        title="Welcome to the Zing Blog"
       >
         <div className="mt-16 space-y-20 lg:mt-20 lg:space-y-20">
           {articles.map((article) => (
