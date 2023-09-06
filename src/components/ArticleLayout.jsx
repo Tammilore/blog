@@ -28,7 +28,7 @@ export function ArticleLayout({
       <Head>
         <title>{`${meta.title} - Zing Blog`}</title>
         <meta name="description" content={meta.description} />
-        <meta property="og:image" content={meta.imageUrl} />
+        <meta property="og:image" content={meta.desktopImageUrl} />
       </Head>
       <Container className="mt-13 lg:mt-24">
         <div className="xl:relative">
@@ -51,7 +51,9 @@ export function ArticleLayout({
                   dateTime={meta.date}
                   className="order-first flex items-center text-sm text-zinc-600 dark:text-zinc-400"
                 >
-                  <span>{meta.date}</span>
+                  <span>
+                    {meta.date} • {meta.readingTime}
+                  </span>
                 </time>
                 <div className="mt-7">
                   <Author name={meta.author} imgUrl={meta.authorImageUrl} role={meta.authorRole} />

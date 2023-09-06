@@ -3,12 +3,14 @@ import { ArticleLayout } from '@/components/ArticleLayout'
 export const meta = {
   title: 'Introducing Zing - The open finance solution for Africa',
   description: `Zing is a new player in Nigeria's open banking space but unlike the established methods, our groundbreaking API provides a superior way for you to not only access but also utilize and analyze a wealth of financial data from various sources.`,
-  imageUrl: '/static/images/blog/ycombinator/ycombinator-graphic.png',
+  mobileImageUrl: '/static/images/blog/ycombinator/ycombinator-graphic.png',
+  desktopImageUrl: '/static/images/blog/ycombinator/ycombinator-graphic.png',
   author: 'Tami',
   authorRole: 'Founder',
   date: 'September 6, 2023',
-  category: 'About',
+  categories: ['Featured', 'About'],
   authorImageUrl: 'https://res.cloudinary.com/tamilore/image/upload/v1689501279/headshot_dzdist.jpg',
+  readingTime: '2 minute read',
 }
 
 export default (props) => <ArticleLayout meta={meta} {...props} />
