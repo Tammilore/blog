@@ -75,9 +75,14 @@ export default function ArticlesIndex({ articles }) {
       <Analytics />
       <Head>
         <title>Zing Blog - Open finance infrastructure for Africa</title>
+        <link rel="icon" href="/static/images/blog/favicon.png" />
         <meta
-          name="Blog"
+          name="description"
           content="Open finance infrastructure for African businesses"
+        />
+        <meta
+          name="keywords"
+          content="open banking, open finance, open banking in Nigeria, zing, zingfi, zing blog"
         />
         <script
           defer
